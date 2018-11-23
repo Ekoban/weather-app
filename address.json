@@ -1,55 +1,51 @@
 {
-info: {
-statuscode: 0,
-copyright: {
-text: "© 2018 MapQuest, Inc.",
-imageUrl: "http://api.mqcdn.com/res/mqlogo.gif",
-imageAltText: "© 2018 MapQuest, Inc."
-},
-messages: [ ]
-},
-options: {
-maxResults: -1,
-thumbMaps: true,
-ignoreLatLngInput: false
-},
-results: [
-{
-providedLocation: {
-location: "1301 lombard street philadelphia"
-},
-locations: [
-{
-street: "1301 Lombard St",
-adminArea6: "",
-adminArea6Type: "Neighborhood",
-adminArea5: "Philadelphia",
-adminArea5Type: "City",
-adminArea4: "Philadelphia",
-adminArea4Type: "County",
-adminArea3: "PA",
-adminArea3Type: "State",
-adminArea1: "US",
-adminArea1Type: "Country",
-postalCode: "19147-1003",
-geocodeQualityCode: "L1ABA",
-geocodeQuality: "ADDRESS",
-dragPoint: false,
-sideOfStreet: "R",
-linkId: "rnr5506315|i48372271",
-unknownInput: "",
-type: "s",
-latLng: {
-lat: 39.944401,
-lng: -75.163136
-},
-displayLatLng: {
-lat: 39.944599,
-lng: -75.16311
-},
-mapUrl: "http://www.mapquestapi.com/staticmap/v5/map?key=VCgwinoGdXf0kuSNf9FjK5Ydor5zQE0E&type=map&size=225,160&locations=39.944401,-75.163136|marker-sm-50318A-1&scalebar=true&zoom=15&rand=-175208968"
-}
-]
-}
-]
+    info: {
+        statuscode: 0,
+        copyright: {
+            text: "© 2018 MapQuest, Inc.",
+            imageUrl: "http://api.mqcdn.com/res/mqlogo.gif",
+            imageAltText: "© 2018 MapQuest, Inc."
+        },
+        messages: []
+    },
+    options: {
+        maxResults: -1,
+        thumbMaps: true,
+        ignoreLatLngInput: false
+    },
+    results: [{
+        providedLocation: {
+            location: "1301 lombard street philadelphia"
+        },
+        locations: [{
+            street: "1301 Lombard St",
+            adminArea6: "",
+            adminArea6Type: "Neighborhood",
+            adminArea5: "Philadelphia",
+            adminArea5Type: "City",
+            adminArea4: "Philadelphia",
+            adminArea4Type: "County",
+            adminArea3: "PA",
+            adminArea3Type: "State",
+            adminArea1: "US",
+            adminArea1Type: "Country",
+            postalCode: "19147-1003",
+            geocodeQualityCode: "L1ABA",
+            geocodeQuality: "ADDRESS",
+            dragPoint: false,
+            sideOfStreet: "R",
+            linkId: "rnr5506315|i48372271",
+            unknownInput: "",
+            type: "s",
+            latLng: {
+                lat: 39.944401,
+                lng: -75.163136
+            },
+            displayLatLng: {
+                lat: 39.944599,
+                lng: -75.16311
+            },
+            mapUrl: "http://www.mapquestapi.com/staticmap/v5/map?key=VCgwinoGdXf0kuSNf9FjK5Ydor5zQE0E&type=map&size=225,160&locations=39.944401,-75.163136|marker-sm-50318A-1&scalebar=true&zoom=15&rand=-175208968"
+        }]
+    }]
 }
